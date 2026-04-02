@@ -20,3 +20,10 @@
   --text-line-height: 1.3;
   --title-shadow: 4px 4px 0 var(--accent-color);
 }
+
+@media (width >=768px) {
+  :root {
+    --page-padding: 20px;
+    --section-gap: 80px;
+  }
+}
